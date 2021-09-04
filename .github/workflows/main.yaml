@@ -8,11 +8,11 @@ jobs:
     - name: Get latest code
       uses: actions/checkout/@v2
     - name: Sync files      
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0  # FTPを使ってサーバーにDeployするアクションを実行
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ${{ secrets.FTP_SERVER }}     # FTPサーバーのURLを設定
-          username: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
-          password: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          server-dir: www/experimental #どのディレクトリにアップロードするか
+          server-dir: www/experimental
