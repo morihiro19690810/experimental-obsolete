@@ -2,7 +2,6 @@ on:                     # トリガーの設定
   push:                 # プッシュした時に実行
     branches:           # ブランチを指定
       - master    # masterブランチ
-      
             - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@2.0.0   # FTPを使ってサーバーにDeployするアクションを実行
         env:                                        # FTP環境の設定を行う
