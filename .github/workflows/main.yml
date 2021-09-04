@@ -1,6 +1,6 @@
 on: push
 name: Deploy website on push
-jobs:
+jobs.runs-on: windows-latest
   web-deploy:
     name: Deploy
 - name: Checkout
