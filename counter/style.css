@@ -14,4 +14,14 @@ div {
 }
 div:hover {
   cursor: pointer;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  font-size: x-small;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
 }/*# sourceMappingURL=style.css.map */
