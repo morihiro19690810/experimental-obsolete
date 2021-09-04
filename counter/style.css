@@ -7,4 +7,7 @@ div {
   text-align: center;
   font-size: 4.5em;
   color: white;
+}
+div :hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
