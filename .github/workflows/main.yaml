@@ -1,9 +1,18 @@
-on: push                 # プッシュした時に実行
-name: ftp upload
+on: push
+name: Deploy website on push
 jobs:
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0   # FTPを使ってサーバーにDeployするアクションを実行
-        with:                                        # FTP環境の設定を行う
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout/@v2
+    - name: Sync files      
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0  # FTPを使ってサーバーにDeployするアクションを実行
+        with:
           server: ${{ secrets.FTP_SERVER }}     # FTPサーバーのURLを設定
           username: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
           password: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
+          protocol: ftps
+          port: 21
           server-dir: www/experimental #どのディレクトリにアップロードするか
