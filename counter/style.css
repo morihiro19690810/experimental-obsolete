@@ -7,7 +7,11 @@ div {
   text-align: center;
   font-size: 4.5em;
   color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
-div :hover {
+div:hover {
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

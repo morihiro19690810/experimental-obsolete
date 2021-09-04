@@ -65,14 +65,15 @@ button {
     left: 150%;
   }
   .label-2 {
+    display: none;
     color: white;
     position: absolute;
     top: 50%;
-    left: 150%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   &:active .label-2 {
-    left: 50%;
+    display: block;
   }
 }
 
