@@ -1,0 +1,91 @@
+.box {
+  height: 100px;
+  width: 200px;
+  margin: 100px auto;
+}
+
+.spin {
+  display: flex;
+  margin: 0 auto;
+  transform: rotate(180deg);
+  height: 100px;
+}
+.spin:hover div {
+  -webkit-animation: spin-keyframe 1.5s forwards;
+          animation: spin-keyframe 1.5s forwards;
+}
+.spin:hover div.spin0 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.spin:hover div.spin1 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.spin:hover div.spin2 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.spin:hover div.spin3 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+.spin:hover div.spin4 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.spin:hover div.spin5 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.spin:hover div.spin6 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.spin:hover div.spin7 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.spin:hover div.spin8 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.spin:hover div.spin9 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.spin:hover div.spin10 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.spin div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: black;
+}
+
+@-webkit-keyframes spin-keyframe {
+  0% {
+    height: 20px;
+  }
+  40% {
+    height: 100px;
+  }
+  80% {
+    height: 20px;
+  }
+}
+
+@keyframes spin-keyframe {
+  0% {
+    height: 20px;
+  }
+  40% {
+    height: 100px;
+  }
+  80% {
+    height: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

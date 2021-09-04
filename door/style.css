@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+#container {
+  background-color: white;
+  text-align: center;
+  z-index: 0;
+}
+
+button {
+  margin: 100px 0;
+  height: 200px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: transform 1s;
+  overflow: hidden;
+}
+button::before {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: transform 3s;
+}
+button:hover::before {
+  transform: translate(-100px);
+}
+button:active {
+  border-color: red;
+  background-color: red;
+}
+button:active::before {
+  transition: transform 0ms;
+  transform: translate(-101px);
+}
+button .label-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button:active .label-1 {
+  left: 150%;
+}
+button .label-2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+}
+button:active .label-2 {
+  left: 50%;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  font-size: x-small;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}/*# sourceMappingURL=style.css.map */

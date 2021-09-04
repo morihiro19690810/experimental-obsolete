@@ -1,0 +1,29 @@
+body {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+}
+
+h1 {
+  font-size: large;
+}
+
+div {
+  font-size: small;
+  cursor: pointer;
+}
+div:hover {
+  color: red;
+}
+div:active {
+  font-weight: 900;
+}
+
+footer {
+  font-size: x-small;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}/*# sourceMappingURL=style.css.map */

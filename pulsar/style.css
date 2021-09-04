@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.space {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px white;
+  transition: all 3s;
+}
+.star:hover {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  font-size: x-small;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}/*# sourceMappingURL=style.css.map */

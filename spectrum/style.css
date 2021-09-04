@@ -1,0 +1,513 @@
+.box {
+  height: 100px;
+  width: 600px;
+  margin: 200px auto;
+}
+
+.spin {
+  display: flex;
+  margin: 0 auto;
+  transform: rotate(180deg);
+  height: 100px;
+}
+.spin div {
+  display: inline-block;
+  width: 5px;
+  height: 100px;
+  margin: 1px;
+  background-color: gainsboro;
+}
+.spin:hover div {
+  -webkit-animation: spin-keyframe 5s infinite;
+          animation: spin-keyframe 5s infinite;
+}
+.spin:hover div:nth-child(1) {
+  -webkit-animation-delay: 0.99s;
+          animation-delay: 0.99s;
+}
+.spin:hover div:nth-child(2) {
+  -webkit-animation-delay: 0.98s;
+          animation-delay: 0.98s;
+}
+.spin:hover div:nth-child(3) {
+  -webkit-animation-delay: 0.97s;
+          animation-delay: 0.97s;
+}
+.spin:hover div:nth-child(4) {
+  -webkit-animation-delay: 0.96s;
+          animation-delay: 0.96s;
+}
+.spin:hover div:nth-child(5) {
+  -webkit-animation-delay: 0.95s;
+          animation-delay: 0.95s;
+}
+.spin:hover div:nth-child(6) {
+  -webkit-animation-delay: 0.94s;
+          animation-delay: 0.94s;
+}
+.spin:hover div:nth-child(7) {
+  -webkit-animation-delay: 0.93s;
+          animation-delay: 0.93s;
+}
+.spin:hover div:nth-child(8) {
+  -webkit-animation-delay: 0.92s;
+          animation-delay: 0.92s;
+}
+.spin:hover div:nth-child(9) {
+  -webkit-animation-delay: 0.91s;
+          animation-delay: 0.91s;
+}
+.spin:hover div:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.spin:hover div:nth-child(11) {
+  -webkit-animation-delay: 0.89s;
+          animation-delay: 0.89s;
+}
+.spin:hover div:nth-child(12) {
+  -webkit-animation-delay: 0.88s;
+          animation-delay: 0.88s;
+}
+.spin:hover div:nth-child(13) {
+  -webkit-animation-delay: 0.87s;
+          animation-delay: 0.87s;
+}
+.spin:hover div:nth-child(14) {
+  -webkit-animation-delay: 0.86s;
+          animation-delay: 0.86s;
+}
+.spin:hover div:nth-child(15) {
+  -webkit-animation-delay: 0.85s;
+          animation-delay: 0.85s;
+}
+.spin:hover div:nth-child(16) {
+  -webkit-animation-delay: 0.84s;
+          animation-delay: 0.84s;
+}
+.spin:hover div:nth-child(17) {
+  -webkit-animation-delay: 0.83s;
+          animation-delay: 0.83s;
+}
+.spin:hover div:nth-child(18) {
+  -webkit-animation-delay: 0.82s;
+          animation-delay: 0.82s;
+}
+.spin:hover div:nth-child(19) {
+  -webkit-animation-delay: 0.81s;
+          animation-delay: 0.81s;
+}
+.spin:hover div:nth-child(20) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.spin:hover div:nth-child(21) {
+  -webkit-animation-delay: 0.79s;
+          animation-delay: 0.79s;
+}
+.spin:hover div:nth-child(22) {
+  -webkit-animation-delay: 0.78s;
+          animation-delay: 0.78s;
+}
+.spin:hover div:nth-child(23) {
+  -webkit-animation-delay: 0.77s;
+          animation-delay: 0.77s;
+}
+.spin:hover div:nth-child(24) {
+  -webkit-animation-delay: 0.76s;
+          animation-delay: 0.76s;
+}
+.spin:hover div:nth-child(25) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+.spin:hover div:nth-child(26) {
+  -webkit-animation-delay: 0.74s;
+          animation-delay: 0.74s;
+}
+.spin:hover div:nth-child(27) {
+  -webkit-animation-delay: 0.73s;
+          animation-delay: 0.73s;
+}
+.spin:hover div:nth-child(28) {
+  -webkit-animation-delay: 0.72s;
+          animation-delay: 0.72s;
+}
+.spin:hover div:nth-child(29) {
+  -webkit-animation-delay: 0.71s;
+          animation-delay: 0.71s;
+}
+.spin:hover div:nth-child(30) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+.spin:hover div:nth-child(31) {
+  -webkit-animation-delay: 0.69s;
+          animation-delay: 0.69s;
+}
+.spin:hover div:nth-child(32) {
+  -webkit-animation-delay: 0.68s;
+          animation-delay: 0.68s;
+}
+.spin:hover div:nth-child(33) {
+  -webkit-animation-delay: 0.67s;
+          animation-delay: 0.67s;
+}
+.spin:hover div:nth-child(34) {
+  -webkit-animation-delay: 0.66s;
+          animation-delay: 0.66s;
+}
+.spin:hover div:nth-child(35) {
+  -webkit-animation-delay: 0.65s;
+          animation-delay: 0.65s;
+}
+.spin:hover div:nth-child(36) {
+  -webkit-animation-delay: 0.64s;
+          animation-delay: 0.64s;
+}
+.spin:hover div:nth-child(37) {
+  -webkit-animation-delay: 0.63s;
+          animation-delay: 0.63s;
+}
+.spin:hover div:nth-child(38) {
+  -webkit-animation-delay: 0.62s;
+          animation-delay: 0.62s;
+}
+.spin:hover div:nth-child(39) {
+  -webkit-animation-delay: 0.61s;
+          animation-delay: 0.61s;
+}
+.spin:hover div:nth-child(40) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.spin:hover div:nth-child(41) {
+  -webkit-animation-delay: 0.59s;
+          animation-delay: 0.59s;
+}
+.spin:hover div:nth-child(42) {
+  -webkit-animation-delay: 0.58s;
+          animation-delay: 0.58s;
+}
+.spin:hover div:nth-child(43) {
+  -webkit-animation-delay: 0.57s;
+          animation-delay: 0.57s;
+}
+.spin:hover div:nth-child(44) {
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+}
+.spin:hover div:nth-child(45) {
+  -webkit-animation-delay: 0.55s;
+          animation-delay: 0.55s;
+}
+.spin:hover div:nth-child(46) {
+  -webkit-animation-delay: 0.54s;
+          animation-delay: 0.54s;
+}
+.spin:hover div:nth-child(47) {
+  -webkit-animation-delay: 0.53s;
+          animation-delay: 0.53s;
+}
+.spin:hover div:nth-child(48) {
+  -webkit-animation-delay: 0.52s;
+          animation-delay: 0.52s;
+}
+.spin:hover div:nth-child(49) {
+  -webkit-animation-delay: 0.51s;
+          animation-delay: 0.51s;
+}
+.spin:hover div:nth-child(50) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.spin:hover div:nth-child(51) {
+  -webkit-animation-delay: 0.49s;
+          animation-delay: 0.49s;
+}
+.spin:hover div:nth-child(52) {
+  -webkit-animation-delay: 0.48s;
+          animation-delay: 0.48s;
+}
+.spin:hover div:nth-child(53) {
+  -webkit-animation-delay: 0.47s;
+          animation-delay: 0.47s;
+}
+.spin:hover div:nth-child(54) {
+  -webkit-animation-delay: 0.46s;
+          animation-delay: 0.46s;
+}
+.spin:hover div:nth-child(55) {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+.spin:hover div:nth-child(56) {
+  -webkit-animation-delay: 0.44s;
+          animation-delay: 0.44s;
+}
+.spin:hover div:nth-child(57) {
+  -webkit-animation-delay: 0.43s;
+          animation-delay: 0.43s;
+}
+.spin:hover div:nth-child(58) {
+  -webkit-animation-delay: 0.42s;
+          animation-delay: 0.42s;
+}
+.spin:hover div:nth-child(59) {
+  -webkit-animation-delay: 0.41s;
+          animation-delay: 0.41s;
+}
+.spin:hover div:nth-child(60) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.spin:hover div:nth-child(61) {
+  -webkit-animation-delay: 0.39s;
+          animation-delay: 0.39s;
+}
+.spin:hover div:nth-child(62) {
+  -webkit-animation-delay: 0.38s;
+          animation-delay: 0.38s;
+}
+.spin:hover div:nth-child(63) {
+  -webkit-animation-delay: 0.37s;
+          animation-delay: 0.37s;
+}
+.spin:hover div:nth-child(64) {
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
+}
+.spin:hover div:nth-child(65) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+.spin:hover div:nth-child(66) {
+  -webkit-animation-delay: 0.34s;
+          animation-delay: 0.34s;
+}
+.spin:hover div:nth-child(67) {
+  -webkit-animation-delay: 0.33s;
+          animation-delay: 0.33s;
+}
+.spin:hover div:nth-child(68) {
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+}
+.spin:hover div:nth-child(69) {
+  -webkit-animation-delay: 0.31s;
+          animation-delay: 0.31s;
+}
+.spin:hover div:nth-child(70) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.spin:hover div:nth-child(71) {
+  -webkit-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+}
+.spin:hover div:nth-child(72) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+.spin:hover div:nth-child(73) {
+  -webkit-animation-delay: 0.27s;
+          animation-delay: 0.27s;
+}
+.spin:hover div:nth-child(74) {
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+}
+.spin:hover div:nth-child(75) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.spin:hover div:nth-child(76) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+}
+.spin:hover div:nth-child(77) {
+  -webkit-animation-delay: 0.23s;
+          animation-delay: 0.23s;
+}
+.spin:hover div:nth-child(78) {
+  -webkit-animation-delay: 0.22s;
+          animation-delay: 0.22s;
+}
+.spin:hover div:nth-child(79) {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+.spin:hover div:nth-child(80) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.spin:hover div:nth-child(81) {
+  -webkit-animation-delay: 0.19s;
+          animation-delay: 0.19s;
+}
+.spin:hover div:nth-child(82) {
+  -webkit-animation-delay: 0.18s;
+          animation-delay: 0.18s;
+}
+.spin:hover div:nth-child(83) {
+  -webkit-animation-delay: 0.17s;
+          animation-delay: 0.17s;
+}
+.spin:hover div:nth-child(84) {
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+}
+.spin:hover div:nth-child(85) {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+.spin:hover div:nth-child(86) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+.spin:hover div:nth-child(87) {
+  -webkit-animation-delay: 0.13s;
+          animation-delay: 0.13s;
+}
+.spin:hover div:nth-child(88) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+.spin:hover div:nth-child(89) {
+  -webkit-animation-delay: 0.11s;
+          animation-delay: 0.11s;
+}
+.spin:hover div:nth-child(90) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.spin:hover div:nth-child(91) {
+  -webkit-animation-delay: 0.09s;
+          animation-delay: 0.09s;
+}
+.spin:hover div:nth-child(92) {
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+}
+.spin:hover div:nth-child(93) {
+  -webkit-animation-delay: 0.07s;
+          animation-delay: 0.07s;
+}
+.spin:hover div:nth-child(94) {
+  -webkit-animation-delay: 0.06s;
+          animation-delay: 0.06s;
+}
+.spin:hover div:nth-child(95) {
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+.spin:hover div:nth-child(96) {
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+}
+.spin:hover div:nth-child(97) {
+  -webkit-animation-delay: 0.03s;
+          animation-delay: 0.03s;
+}
+.spin:hover div:nth-child(98) {
+  -webkit-animation-delay: 0.02s;
+          animation-delay: 0.02s;
+}
+.spin:hover div:nth-child(99) {
+  -webkit-animation-delay: 0.01s;
+          animation-delay: 0.01s;
+}
+.spin:hover div:nth-child(100) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes spin-keyframe {
+  0% {
+    background-color: gainsboro;
+  }
+  5% {
+    background-color: magenta;
+  }
+  10% {
+    background-color: orangered;
+  }
+  15% {
+    background-color: orange;
+  }
+  20% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: yellowgreen;
+  }
+  30% {
+    background-color: greenyellow;
+  }
+  35% {
+    background-color: green;
+  }
+  40% {
+    background-color: aquamarine;
+  }
+  45% {
+    background-color: aqua;
+  }
+  50% {
+    background-color: blue;
+  }
+  55% {
+    background-color: blueviolet;
+  }
+  60% {
+    background-color: purple;
+  }
+  65% {
+    background-color: gainsboro;
+  }
+}
+
+@keyframes spin-keyframe {
+  0% {
+    background-color: gainsboro;
+  }
+  5% {
+    background-color: magenta;
+  }
+  10% {
+    background-color: orangered;
+  }
+  15% {
+    background-color: orange;
+  }
+  20% {
+    background-color: yellow;
+  }
+  25% {
+    background-color: yellowgreen;
+  }
+  30% {
+    background-color: greenyellow;
+  }
+  35% {
+    background-color: green;
+  }
+  40% {
+    background-color: aquamarine;
+  }
+  45% {
+    background-color: aqua;
+  }
+  50% {
+    background-color: blue;
+  }
+  55% {
+    background-color: blueviolet;
+  }
+  60% {
+    background-color: purple;
+  }
+  65% {
+    background-color: gainsboro;
+  }
+}/*# sourceMappingURL=style.css.map */

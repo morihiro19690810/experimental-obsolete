@@ -1,0 +1,71 @@
+.box {
+  height: 100px;
+  width: 200px;
+  margin: 100px auto;
+}
+
+.spin {
+  display: flex;
+  margin: 0 auto;
+  transform: rotate(180deg);
+  height: 100px;
+
+  &:hover div {
+    animation: spin-keyframe 1.5s forwards;
+    &.spin0 {
+      animation-delay: 1s;
+    }
+    &.spin1 {
+      animation-delay: 0.9s;
+    }
+    &.spin2 {
+      animation-delay: 0.8s;
+    }
+    &.spin3 {
+      animation-delay: 0.7s;
+    }
+    &.spin4 {
+      animation-delay: 0.6s;
+    }
+    &.spin5 {
+      animation-delay: 0.5s;
+    }
+    &.spin6 {
+      animation-delay: 0.4s;
+    }
+    &.spin7 {
+      animation-delay: 0.3s;
+    }
+    &.spin8 {
+      animation-delay: 0.2s;
+    }
+    &.spin9 {
+      animation-delay: 0.1s;
+    }
+    &.spin10 {
+      animation-delay: 0s;
+    }
+  }
+
+  & div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-color: black;
+
+  }
+
+}
+
+@keyframes spin-keyframe {
+  0% {
+    height: 20px;
+  }
+  40% {
+    height: 100px;
+  }
+  80% {
+    height: 20px;
+  }
+}
