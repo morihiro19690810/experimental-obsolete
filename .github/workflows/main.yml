@@ -1,7 +1,6 @@
 on: push
 name: Deploy website on push
 jobs.runs-on: windows-latest
-    name: Deploy
 - name: Checkout
   uses: actions/checkout@v2.3.4
 - name: FTP Deploy
